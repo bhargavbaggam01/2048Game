@@ -4,6 +4,7 @@ import random
 app = Flask(__name__)
 
 # Initialize game board
+#changes are made
 def init_board():
     board = [[0] * 4 for _ in range(4)]
     # Place 2 initial tiles
